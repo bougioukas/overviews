@@ -2,164 +2,28 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "RECREATING DATA VISUALIZATIONS IN R"
-  site-url: "https://bougioukas.github.io/storytelling/"
+  title: "OVERVIEW AND UMBRELLA REVIEWS"
+  site-url: "https://bougioukas.github.io/overviews/"
   favicon: "img/logo.png"
   reader-mode: true
   navbar:
     right:
-      - text: Tables
+      - text: Overview of reviews
         menu:
-          - text: Table1
+          - text: Methodology
             href: projects.qmd
-          - text: Table2
-            href: projects2.qmd
-      - text: Basic
-        menu:
-          - text: Area chart
-            href: area.qmd
-          - text: Bar plot
+          - text: Database
+            href: projects.qmd
+          - text: Reporting guidelines
             href: projects.qmd            
-          - text: Box plot
-            href: projects.qmd
-          - text: Bubble plot
-            href: projects.qmd             
-          - text: Density plot
-            href: projects2.qmd
-          - text: Dot plot
-            href: dot.qmd
-          - text: Donut chart
-            href: projects2.qmd                    
-          - text: Heatmap
-            href: projects2.qmd
-          - text: Histogram
-            href: projects2.qmd   
-          - text: Line chart
-            href: line.qmd
-          - text: Pie chart
-            href: projects2.qmd
-          - text: Radar plot
-            href: projects2.qmd
-          - text: Radial bar chart
-            href: radial.qmd
-          - text: Ridgeline chart
-            href: ridgeline.qmd                      
-          - text: Scatter plot
-            href: projects2.qmd
-          - text: Venn/Euler diagram
-            href: projects2.qmd 
-          - text: Violin plot
-            href: projects.qmd            
-      - text: Specialized
+      - text: Umbrella review
         menu:
-          - text: Bland-Altman plot
+          - text: Methodology
             href: projects.qmd
-          - text: Bullet bars
-            href: projects.qmd            
-          - text: Cleveland’s dot plot
-            href: projects.qmd             
-          - text: Correlation matrix
+          - text: Database
             href: projects.qmd
-          - text: Dose-response curves
-            href: drc.qmd
-          - text: Dumbbell plot
-            href: projects2.qmd            
-          - text: Epidemic curve
-            href: projects2.qmd            
-          - text: Likert plot
-            href: projects2.qmd            
-          - text: Mosaic plot
-            href: projects2.qmd
-          - text: Q-Q plot
-            href: projects2.qmd            
-          - text: Raincloud plot
-            href: projects2.qmd
-          - text: ROC curve
-            href: projects2.qmd
-          - text: Split bars
-            href: projects2.qmd            
-          - text: Stream graph
-            href: projects2.qmd            
-          - text: Survival plot
-            href: projects2.qmd
-          - text: Upset plot
-            href: projects2.qmd
-          - text: Waffle chart
-            href: projects2.qmd                 
-          - text: Waterfall chart
-            href: projects2.qmd            
-      - text: Networks
-        menu:
-          - text: Alluvial Diagrams
-            href: projects.qmd        
-          - text: Chord diagram
-            href: projects.qmd
-          - text: Graph/Network
-            href: projects2.qmd
-          - text: Shankey diagram
-            href: projects2.qmd 
-      - text: Tree-based
-        menu:
-          - text: Circular packing
-            href: projects.qmd         
-          - text: Radial tree
-            href: projects.qmd 
-          - text: Treemap  
-            href: projects.qmd
-          - text: Voroni diagram
-            href: projects.qmd              
-      - text: Maps
-        menu:
-          - text: Bubble map
-            href: projects.qmd
-          - text: Choropleth map
-            href: projects.qmd            
-          - text: Flow map
-            href: projects2.qmd              
-          - text: Isopleth map
-            href: projects2.qmd
-      - text: Evidence synthesis
-        menu:
-          - text: Albatross plot
-            href: projects.qmd
-          - text: Baujat plot
-            href: projects.qmd
-          - text: CCA heatmap
-            href: projects.qmd               
-          - text: Components cross-table
-            href: projects.qmd   
-          - text: Cross-hairs scatter plot
-            href: projects.qmd            
-          - text: CUMSUM chart
-            href: projects.qmd             
-          - text: Forest plot
-            href: projects.qmd
-          - text: Funnel plot
-            href: projects2.qmd
-          - text: Fuzzy number plot
-            href: projects2.qmd            
-          - text: Galbraith/radial plot
-            href: projects2.qmd
-          - text: GOSH plot
-            href: projects2.qmd
-          - text: Harvest plot
-            href: projects2.qmd 
-          - text: Kilim plot
-            href: projects2.qmd             
-          - text: L’Abbé plot 
-            href: projects2.qmd
-          - text: Netheat plot
-            href: projects2.qmd
-          - text: Rank-heat plot 
-            href: projects2.qmd             
-      - text: Other
-        menu:
-          - text: Fagan's nomogram
-            href: projects.qmd             
-          - text: Gantt Chart
-            href: projects.qmd
-          - text: Word cloud
-            href: projects.qmd               
+          - text: Reporting guidelines
+            href: projects.qmd                 
     pinned: true
     logo: "img/logo.png"
     tools:
