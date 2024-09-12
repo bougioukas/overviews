@@ -28,7 +28,6 @@ Choosing R for data visualization, particularly when leveraging the grammar of g
 
 -  R, with packages like `{plotly}` and `{Shiny}`, supports the creation of **interactive** visualizations.
 
-<br>
 
 :::
 
